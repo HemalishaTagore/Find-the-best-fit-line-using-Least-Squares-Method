@@ -43,7 +43,7 @@ print(f"SLOPE (m): {m:.4f}")
 print(f"INTERCEPT (b): {b:.4f}")
 
 y_pred = m*x + b
-print(y)
+print(y_pred)
 
 plt.scatter(x,y, color='g', label="Data Points")
 plt.plot(x, y_pred, color='r' ,label='Regression Line')
