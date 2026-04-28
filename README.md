@@ -56,7 +56,7 @@ plt.show()
 ```
 
 ## Output:
-![best fit line](exp1.png)
+![image](exp1.png)
 
 
 ## Result:
