@@ -27,11 +27,16 @@ RegisterNumber: 212225040123
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.array([12,34,43,72])
-y = np.array([67,89,34,12])
+
+arr=eval(input("Enter dependent data(X): "))
+arr1=eval(input("Enter independent data(y): "))
+
+x = np.array(arr)
+y = np.array(arr1)
 print(x)
 print(y)
 n=len(x)
+
 m=(n*np.sum(x*y)-np.sum(x)*np.sum(y))/(n*np.sum(x**2)-((np.sum(x))**2))
 b=(np.sum(y)-m*np.sum(x))/n
 
@@ -52,7 +57,7 @@ plt.show()
 ```
 
 ## Output:
-![best fit line](sam.png)
+![best fit line](exp1.png)
 
 
 ## Result:
